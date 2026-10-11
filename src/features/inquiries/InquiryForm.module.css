@@ -1,0 +1,13 @@
+.form { display: grid; gap: 18px; }
+.intro { color: var(--color-secondary); font-size: 14px; line-height: 1.7; }
+.intro strong { color: var(--color-text); font-size: 16px; }
+.demoNote { padding-bottom: 16px; border-bottom: 1px solid var(--color-divider); color: var(--color-muted); font-size: 12px; line-height: 1.6; }
+.contactFields { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+.hint { margin-top: -10px; color: var(--color-muted); font-size: 12px; }
+.actions { display: flex; flex-wrap: wrap; align-items: center; gap: 16px; padding-top: 4px; }
+.actions span { color: var(--color-muted); font-size: 12px; }
+.success { padding-block: 12px; display: grid; justify-items: start; gap: 16px; }
+.success svg { color: var(--color-primary); }
+.success h3 { font-size: 22px; }
+.success p { font-size: 14px; line-height: 1.7; color: var(--color-secondary); }
+@media (max-width: 500px) { .contactFields { grid-template-columns: 1fr; } }
