@@ -26,7 +26,7 @@ export function InquiryForm({ property, onDone }: { property: Property | null; o
     <Field id="inquiry-name" label="Name" error={errors.name}><TextInput id="inquiry-name" autoComplete="off" value={input.name} onChange={(event) => change('name', event.target.value)} aria-invalid={Boolean(errors.name)} aria-describedby={errors.name ? 'inquiry-name-error' : undefined} /></Field>
     <div className={styles.contactFields}>
       <Field id="inquiry-email" label="Email" error={errors.email}><TextInput id="inquiry-email" type="email" autoComplete="off" placeholder="sample@example.com" value={input.email} onChange={(event) => change('email', event.target.value)} aria-invalid={Boolean(errors.email)} aria-describedby={errors.email ? 'inquiry-email-error' : 'inquiry-contact-hint'} /></Field>
-      <Field id="inquiry-phone" label="Phone (optional)"><TextInput id="inquiry-phone" type="tel" autoComplete="off" value={input.phone} onChange={(event) => change('phone', event.target.value)} aria-describedby="inquiry-contact-hint" /></Field>
+      <Field id="inquiry-phone" label="Phone (optional)"><TextInput id="inquiry-phone" type="tel" autoComplete="off" placeholder="09XX XXX XXXX" value={input.phone} onChange={(event) => change('phone', event.target.value)} aria-describedby="inquiry-contact-hint" /></Field>
     </div>
     <p className={styles.hint} id="inquiry-contact-hint">Include at least one contact method: email or phone.</p>
     <Field id="inquiry-message" label="Message" error={errors.message}><TextArea id="inquiry-message" rows={4} value={input.message} onChange={(event) => change('message', event.target.value)} aria-invalid={Boolean(errors.message)} aria-describedby={errors.message ? 'inquiry-message-error' : undefined} /></Field>

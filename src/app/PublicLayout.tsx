@@ -26,7 +26,7 @@ export function PublicLayout({ children, onInquiry, onReset, onPrivacy }: { chil
     <footer className={styles.footer}>
       <div className="page-container">
         <div className={styles.footerTop}>
-          <div><a href="#home"><Brand /></a><p>Open property browsing and straightforward directory inquiries.</p></div>
+          <div><a href="#home"><Brand /></a><p>Find homes and spaces in Davao and across Mindanao.</p></div>
           <nav aria-label="Footer navigation">{navigation.map((link) => <a key={link.label} href={link.href}>{link.label}</a>)}<button type="button" onClick={onPrivacy}>Privacy information</button></nav>
         </div>
         <div className={styles.footerBottom}><span>Sample property directory · For demonstration purposes</span><span className={styles.footerTools}><span>Visitors browse without an account</span><button type="button" onClick={onReset}><Icon name="reset" size={13} /> Reset demo</button></span></div>

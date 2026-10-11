@@ -18,6 +18,6 @@ export function filterProperties(properties: Property[], filters: PropertyFilter
 
 export function formatPrice(property: Property): string {
   if (property.price === null) return 'Price on request';
-  const price = new Intl.NumberFormat('en-US', { style: 'currency', currency: property.currency, maximumFractionDigits: 0 }).format(property.price);
+  const price = new Intl.NumberFormat('en-PH', { style: 'currency', currency: property.currency, maximumFractionDigits: 0 }).format(property.price);
   return property.offering === 'rent' ? `${price} / month` : price;
 }

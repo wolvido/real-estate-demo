@@ -11,11 +11,12 @@ export interface Property {
   category: string;
   location: string;
   price: number | null;
-  currency: 'USD';
+  currency: 'PHP';
   beds: number | null;
   baths: number | null;
   area: number;
-  areaUnit: 'sq ft';
+  areaUnit: 'm²';
+  areaKind: 'floor' | 'lot';
   image: string;
   description: string;
   publication: Publication;

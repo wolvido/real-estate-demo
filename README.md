@@ -25,7 +25,7 @@ npm run preview
 
 Home follows the reviewed layout and photographs. Search combines location, buying/renting, property type, and price. Property previews and inquiry dialogs work with fictional sample data. Inquiries stay in this browser; **no message is sent**. Reset demo clears this demo's saved inquiries.
 
-Home navigation currently jumps to sections on Home. Property details are previews; dedicated pages come in subsequent increments. Company text, prices, USD currency, locations, and photos are demonstration content, not approved business facts. Three additional records reuse the photographs to exercise search.
+Home navigation currently jumps to sections on Home. Property details are previews; dedicated pages come in subsequent increments. The demo has 20 fictional listings in Davao City, Samal, Panabo, Tagum, Digos, Mati, General Santos, Cagayan de Oro, and Malaybalay. Six are featured on Home; View all and search expose the complete inventory. Prices use Philippine pesos (PHP/₱), rental prices are monthly, and areas use square metres with floor/lot labels. Location suggestions come from the inventory. Prices and specifications are invented demo values; the original design photographs are reused and labelled illustrative, not actual photos of these places.
 
 There is no database, application backend, real sign-in, or email service. Production integrations are a separate stage. No deployment or GitHub push is part of this increment.
 
