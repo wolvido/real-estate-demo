@@ -55,4 +55,4 @@ Exact page IDs are recorded in `docs/stitch-reference.json`. Read `docs/design-r
 
 Reference documents: `D:\Users\Winzyl\Documents\Manifold\Winz Vault\projects\Real Estate Full`. The later C1 decisions supersede the original demo plan's old project link and separate Properties-page structure.
 
-There is no database, application backend, external CMS, real authentication, or email integration. Deployment and production integrations are separate steps. This update is local; it has not been committed, pushed, or deployed. Planned hosting remains Cloudflare Workers Static Assets with SPA route fallback.
+There is no database, application backend, external CMS, real authentication, or email integration. Production integrations are separate steps. The demo is deployed and verified at https://real-estate-demo.real-estate-demo.workers.dev. Cloudflare Workers Static Assets is configured in `wrangler.toml` with SPA route fallback. See [deployment instructions and status](docs/deployment.md).

@@ -40,8 +40,8 @@ export function PublicLayout() {
       <Link to="/#home" aria-label="Company Real Estate home"><Brand /></Link><span className={styles.region}>Mindanao</span>
       <button type="button" className={styles.menuToggle} aria-label={menuOpen ? 'Close navigation' : 'Open navigation'} aria-expanded={menuOpen} aria-controls="public-navigation" onClick={() => setMenuOpen(!menuOpen)}><Icon name={menuOpen ? 'close' : 'menu'} size={24} /></button>
       <nav id="public-navigation" className={styles.navigation + (menuOpen ? ' ' + styles.navigationOpen : '')} aria-label="Main navigation">
-        {navigation.map((item) => <Link key={item.label} to={item.href} className={current === item.label ? styles.current : undefined} aria-current={current === item.label ? location.pathname === '/' ? 'location' : 'page' : undefined}>{item.label}</Link>)}
-        <LinkButton to="/contact">Talk to our team</LinkButton>
+        {navigation.map((item) => <Link key={item.label} to={item.href} onClick={() => setMenuOpen(false)} className={current === item.label ? styles.current : undefined} aria-current={current === item.label ? location.pathname === '/' ? 'location' : 'page' : undefined}>{item.label}</Link>)}
+        <LinkButton to="/contact" onClick={() => setMenuOpen(false)}>Talk to our team</LinkButton>
       </nav>
     </div></header>
     {storageNotice && <p className="storage-notice" role="status">{storageNotice}</p>}

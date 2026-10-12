@@ -1,0 +1,41 @@
+{
+  "provider": "Cloudflare Workers Static Assets",
+  "worker": "real-estate-demo",
+  "url": "https://real-estate-demo.real-estate-demo.workers.dev",
+  "versionId": "955adb74-ac37-47bf-a225-d8a19dd2c4fa",
+  "verifiedAtUTC": "2026-10-12T12:56:31.669Z",
+  "wranglerVersion": "4.149.0",
+  "sourceRevision": "Local working tree; mobile navigation adjustment",
+  "gitHead": "fc5ebfa14bbc81e2bc6f828ea3c23116f3cd4982",
+  "checks": {
+    "build": "Passed: TypeScript and Vite",
+    "deployment": "Wrangler deploy succeeded",
+    "browser": [
+      "390px and 320px viewport: vertical navigation, six links each 52px tall",
+      "320px viewport: no horizontal document overflow",
+      "Selecting Home closes the menu, including on the current page",
+      "Close toggle works",
+      "Default desktop viewport: horizontal navigation restored and toggle hidden",
+      "No browser errors or warnings"
+    ]
+  },
+  "assetHashes": {
+    "assets/c1-bungalow.jpg": "ac981ce313174d98be56fce3c946f7129c72f9a84f61df30969311940cfbac39",
+    "assets/c1-condo.jpg": "701313543c7e326031a13ff7a923e0a8bcfcdc5541e243bf7142e96195c455a9",
+    "assets/c1-house.jpg": "cd1fc4b3d0df16ddfa615cee381efd894d66f879cebfee1743e3b3d6c0f9457c",
+    "assets/c1-team.jpg": "17e772c1532bcab8aaa5f02a3c2989b3e67a2c93d4638150b6232410a7d74a11",
+    "assets/garden-pavilion.jpg": "bf9414817a104e1e0d33b949cb256c879653b911e24de093d49e74ec5804c202",
+    "assets/herringbone-flat.jpg": "b9136f324aea46d311467debe23d46ea1e1d58b4c2a048102951ab1ab2dd676d",
+    "assets/index-B9X4lCl4.js": "2ee91faa2008bcd970f1ce34ee34c36b9728b8f364deb8e341148b3ee2a8129c",
+    "assets/index-BFRGD9D7.css": "55bc0f95cde0f594638818c921f2bb10b6973a20f151ff4a42fe983e34965b7a",
+    "assets/pavilion-in-pines.jpg": "6cae43d97d83354c6c05a7a092a925758e044d7a4399c7645f7bff52d46621f4",
+    "assets/plus-jakarta-sans-latin-ext-wght-normal-DmpS2jIq.woff2": "38e3b8fd8045048eb311d90170a4429ed2c8f405852dc3d91b5af8452758703f",
+    "assets/plus-jakarta-sans-latin-wght-normal-eXO_dkmS.woff2": "153fc85b70298beeb1d61a5f723331649e7f23bb77302a66e61cb3e2fbdb5e79",
+    "assets/plus-jakarta-sans-vietnamese-wght-normal-qRpaaN48.woff2": "b275d1258601dda240fc6a1d4a6cad56e691d898f5cdf1b0e4fd6ca0022d8e40",
+    "favicon.svg": "207a6aa8988a441f3196f56502c05c6b1d3be8c0f158e575dc3188053d624812",
+    "index.html": "84f4c1a57da71fa35a5fed5379e5a4c215d295f43cd53ae2b80cbefdb1cb514e"
+  },
+  "screenshot": "artifacts/deployment/mobile-menu-live.png",
+  "previousDeployment": "deployment-record-initial.json",
+  "note": "Earlier full journey and HTTP checks are recorded against the initial deployment. This update was checked for mobile and desktop navigation."
+}

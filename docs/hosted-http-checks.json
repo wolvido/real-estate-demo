@@ -1,0 +1,121 @@
+{
+  "assets": [
+    {
+      "asset": "favicon.svg",
+      "status": 200,
+      "contentType": "image/svg+xml"
+    },
+    {
+      "asset": "assets/c1-bungalow.jpg",
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "asset": "assets/c1-condo.jpg",
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "asset": "assets/c1-house.jpg",
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "asset": "assets/c1-team.jpg",
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "asset": "assets/garden-pavilion.jpg",
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "asset": "assets/herringbone-flat.jpg",
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "asset": "assets/index-BPYS9-LU.js",
+      "status": 200,
+      "contentType": "text/javascript"
+    },
+    {
+      "asset": "assets/index-CzvR6geR.css",
+      "status": 200,
+      "contentType": "text/css"
+    },
+    {
+      "asset": "assets/pavilion-in-pines.jpg",
+      "status": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "asset": "assets/plus-jakarta-sans-latin-ext-wght-normal-DmpS2jIq.woff2",
+      "status": 200,
+      "contentType": "font/woff2"
+    },
+    {
+      "asset": "assets/plus-jakarta-sans-latin-wght-normal-eXO_dkmS.woff2",
+      "status": 200,
+      "contentType": "font/woff2"
+    },
+    {
+      "asset": "assets/plus-jakarta-sans-vietnamese-wght-normal-qRpaaN48.woff2",
+      "status": 200,
+      "contentType": "font/woff2"
+    }
+  ],
+  "routes": [
+    {
+      "route": "/",
+      "status": 200,
+      "reactEntry": true
+    },
+    {
+      "route": "/about",
+      "status": 200,
+      "reactEntry": true
+    },
+    {
+      "route": "/services",
+      "status": 200,
+      "reactEntry": true
+    },
+    {
+      "route": "/contact",
+      "status": 200,
+      "reactEntry": true
+    },
+    {
+      "route": "/privacy",
+      "status": 200,
+      "reactEntry": true
+    },
+    {
+      "route": "/properties/matina-garden-home",
+      "status": 200,
+      "reactEntry": true
+    },
+    {
+      "route": "/admin",
+      "status": 200,
+      "reactEntry": true
+    },
+    {
+      "route": "/admin/properties",
+      "status": 200,
+      "reactEntry": true
+    },
+    {
+      "route": "/admin/properties/DEMO-001/edit",
+      "status": 200,
+      "reactEntry": true
+    },
+    {
+      "route": "/admin/inquiries",
+      "status": 200,
+      "reactEntry": true
+    }
+  ]
+}

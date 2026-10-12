@@ -1,0 +1,51 @@
+{
+  "provider": "Cloudflare Workers Static Assets",
+  "worker": "real-estate-demo",
+  "url": "https://real-estate-demo.real-estate-demo.workers.dev",
+  "versionId": "071b96fe-ddb6-4aed-92d6-d39d637e7ab5",
+  "deployedAtUTC": "2026-10-12T12:17:34.433Z",
+  "wranglerVersion": "4.149.0",
+  "activeTrafficPercent": 100,
+  "sourceRevision": "Working tree; current deployment prep files remain uncommitted",
+  "checks": {
+    "build": "Passed",
+    "deploymentDryRun": "Passed; 15 static files",
+    "cloudflareDeployment": "Confirmed active via deployments list",
+    "publicHTTPS": "Passed: Windows HTTPS request and in-app browser both loaded the live site with normal certificate validation",
+    "browserJourneys": [
+      "C1 homepage rendered with images and full-width layout",
+      "Automatic scroll loading appended listings from 6 to 12",
+      "Empty search and Clear filters restored six initial listings",
+      "Property details and gallery next-photo control worked",
+      "Inquiry validation and fictional local submission worked",
+      "Submitted inquiry appeared in admin; handled status and private note saved",
+      "Availability edit appeared publicly and persisted through page reload",
+      "Reset restored original listing availability and three sample inquiries; temporary test record removed",
+      "Admin exit worked; homepage left open as deliverable",
+      "No browser console warnings or errors observed in verification tab"
+    ],
+    "workersDevRoute": "Confirmed enabled through Cloudflare API",
+    "directRoutes": "Passed: 10 known routes returned HTTP 200 with the React entry document",
+    "assets": "Passed: all 13 non-HTML public assets returned HTTP 200 with non-HTML content types",
+    "initialHTTPSIssue": "Initial TLS errors cleared during this turn; validation was never disabled or bypassed"
+  },
+  "note": "Deployment and main hosted journeys verified. All QA record changes were local to the verification browser and reset. No database or real authentication.",
+  "gitHead": "fc5ebfa14bbc81e2bc6f828ea3c23116f3cd4982",
+  "assetHashes": {
+    "favicon.svg": "207a6aa8988a441f3196f56502c05c6b1d3be8c0f158e575dc3188053d624812",
+    "index.html": "34e7a98fae0dd96f92d709db652da87e12ed3d6fb9708282052bcc65819692e7",
+    "assets/c1-bungalow.jpg": "ac981ce313174d98be56fce3c946f7129c72f9a84f61df30969311940cfbac39",
+    "assets/c1-condo.jpg": "701313543c7e326031a13ff7a923e0a8bcfcdc5541e243bf7142e96195c455a9",
+    "assets/c1-house.jpg": "cd1fc4b3d0df16ddfa615cee381efd894d66f879cebfee1743e3b3d6c0f9457c",
+    "assets/c1-team.jpg": "17e772c1532bcab8aaa5f02a3c2989b3e67a2c93d4638150b6232410a7d74a11",
+    "assets/garden-pavilion.jpg": "bf9414817a104e1e0d33b949cb256c879653b911e24de093d49e74ec5804c202",
+    "assets/herringbone-flat.jpg": "b9136f324aea46d311467debe23d46ea1e1d58b4c2a048102951ab1ab2dd676d",
+    "assets/index-BPYS9-LU.js": "f47535079ac5349a63840ce879156f77d9ecf3f61b52a552b4a41857f5de3420",
+    "assets/index-CzvR6geR.css": "97bda773dc70d59d3a0ba4ccebacfe20c5cc04f97104fc19c1078f5a79091dda",
+    "assets/pavilion-in-pines.jpg": "6cae43d97d83354c6c05a7a092a925758e044d7a4399c7645f7bff52d46621f4",
+    "assets/plus-jakarta-sans-latin-ext-wght-normal-DmpS2jIq.woff2": "38e3b8fd8045048eb311d90170a4429ed2c8f405852dc3d91b5af8452758703f",
+    "assets/plus-jakarta-sans-latin-wght-normal-eXO_dkmS.woff2": "153fc85b70298beeb1d61a5f723331649e7f23bb77302a66e61cb3e2fbdb5e79",
+    "assets/plus-jakarta-sans-vietnamese-wght-normal-qRpaaN48.woff2": "b275d1258601dda240fc6a1d4a6cad56e691d898f5cdf1b0e4fd6ca0022d8e40"
+  },
+  "screenshot": "artifacts/deployment/home-live.png"
+}
