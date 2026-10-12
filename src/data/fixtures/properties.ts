@@ -1,9 +1,9 @@
 import type { Property } from '../types';
 
 const common = { currency: 'PHP', areaUnit: 'm²', publication: 'published', availability: 'available', updatedAt: '2026-10-11T08:00:00Z' } as const;
-const garden = '/assets/garden-pavilion.jpg';
-const flat = '/assets/herringbone-flat.jpg';
-const terrace = '/assets/pavilion-in-pines.jpg';
+const garden = '/assets/c1-house.jpg';
+const flat = '/assets/c1-condo.jpg';
+const terrace = '/assets/c1-house.jpg';
 type SampleListing = Omit<Property, keyof typeof common>;
 
 // Place names are real; properties, specifications, and prices are fictional.
@@ -31,5 +31,7 @@ const listings: SampleListing[] = [
   { id: 'DEMO-020', title: 'Matina Furnished Rental', slug: 'matina-furnished-rental', offering: 'rent', type: 'house', category: 'House and Lot', location: 'Matina, Davao City', price: 42000, beds: 4, baths: 3, area: 190, areaKind: 'floor', image: garden, description: 'A sample furnished rental for a larger household, with a service kitchen and covered parking.', featured: false },
 ];
 
-export const sampleProperties: Property[] = listings.map((listing) => ({ ...common, ...listing, description: `${listing.description} Fictional demo listing; prices and photographs are illustrative.` }));
+export const sampleProperties: Property[] = listings.map((listing) => ({ ...common, ...listing,
+  features: listing.id === 'DEMO-001' ? ['Two-level family home', 'Covered lanai', 'Natural airflow', 'Two-car carport', 'Open living and dining area', 'Tropical garden'] : [],
+}));
 export const sampleLocations = [...new Set(sampleProperties.map((property) => property.location))].sort();

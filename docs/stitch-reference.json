@@ -1,0 +1,76 @@
+{
+  "projectId": "11829459736944564846",
+  "projectUrl": "https://stitch.withgoogle.com/projects/11829459736944564846",
+  "pages": [
+    {
+      "number": "01",
+      "key": "01-home",
+      "title": "01 — Home + Properties / C1 / M1 Soft Blue",
+      "screenId": "15186841812853264350",
+      "sha256": "88e24f694e75b6fc45a0d72573a6f177ab95cc26e20ce1d0b7b4e59424782c79"
+    },
+    {
+      "number": "03",
+      "key": "03-details",
+      "title": "03 — Property Details / C1 / M1 Soft Blue / Reviewed revision",
+      "screenId": "5421441048572470662",
+      "sha256": "d825fa030f2e0de07ba92af6550407eaf2833122e456ba070da6fbfeb147438f"
+    },
+    {
+      "number": "04",
+      "key": "04-about",
+      "title": "04 — About Us / C1 / M1 Soft Blue / Reviewed revision",
+      "screenId": "18218522247680882136",
+      "sha256": "723b2a16af1198d442f4816c955af47fe1e5568a5e289ff31257205512f7a722"
+    },
+    {
+      "number": "05",
+      "key": "05-services",
+      "title": "05 — Services / C1 / M1 Soft Blue",
+      "screenId": "11466261770924103704",
+      "sha256": "490f17502f6570644cdf9c740b9c7a56e1db857d14f0e567283f13065b00512d"
+    },
+    {
+      "number": "06",
+      "key": "06-contact",
+      "title": "06 — Contact / C1 / M1 Soft Blue / Reviewed revision",
+      "screenId": "12609372333892597741",
+      "sha256": "bfd432619dec69a87d55943b0924c42318a07910bfd2dd3461f04e44d8d4e747"
+    },
+    {
+      "number": "07",
+      "key": "07-privacy",
+      "title": "07 — Privacy Information / C1 / M1 Soft Blue",
+      "screenId": "3140301498360823542",
+      "sha256": "16c15d9a3ec734a828289d5cf233f36f00a888d1983da1ae173396ac5348a013"
+    },
+    {
+      "number": "08",
+      "key": "08-sign-in",
+      "title": "08 — Administrator Sign-in / M1 Soft Blue",
+      "screenId": "9225229436599482153",
+      "sha256": "ea22ef1bebb243f421cec08d436ef4b89897109642893979267a7ba91f7f619c"
+    },
+    {
+      "number": "09",
+      "key": "09-admin-properties",
+      "title": "09 — Administrator Properties / M1 Soft Blue",
+      "screenId": "15137276453744109444",
+      "sha256": "75daa67bfd765a6054f2a569db5a58bde323cf9bf4246cfa1183b1843c592bb4"
+    },
+    {
+      "number": "10",
+      "key": "10-editor",
+      "title": "10 — Property Editor / M1 Soft Blue",
+      "screenId": "5436687017264898366",
+      "sha256": "df7d8524400fa655a8fb7a84ef9e6cdd4aa0a6f9592dde38474c9525ed2b4175"
+    },
+    {
+      "number": "13",
+      "key": "13-inquiries",
+      "title": "13 — Administrator Inquiries / M1 Soft Blue",
+      "screenId": "6485497394742561491",
+      "sha256": "e4a14dde9c452fa7caf3dc4754a20010dd2ab803b1311317bb4438711b2ef903"
+    }
+  ]
+}

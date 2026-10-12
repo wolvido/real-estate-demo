@@ -1,0 +1,19 @@
+.shell { min-height:100vh; background:#f8fafc; }
+.header { display:flex; align-items:center; gap:20px; padding:20px 24px; background:white; border-bottom:1px solid var(--color-divider); }
+.header > span { font-size:13px; color:var(--color-muted); }
+.header > div { display:flex; align-items:center; gap:28px; margin-left:auto; }
+.header strong { font-size:13px; }
+.header small { display:block; margin-top:5px; font-size:11px; color:var(--color-muted); font-weight:400; }
+.body { display:grid; grid-template-columns:220px minmax(0,1fr); min-height:calc(100vh - 142px); }
+.sidebar { display:flex; flex-direction:column; background:white; border-right:1px solid var(--color-divider); padding:28px 16px; }
+.sidebar > p { font-size:10px; color:var(--color-muted); padding-left:12px; }
+.sidebar nav { display:grid; gap:8px; margin-top:20px; }
+.sidebar nav a { display:flex; align-items:center; gap:10px; padding:14px 12px; border-radius:5px; font-size:15px; color:var(--color-secondary); }
+.sidebar nav a.active { color:var(--color-primary); background:var(--color-primary-tint); font-weight:650; }
+.sidebar nav span { margin-left:auto; font-size:12px; }
+.sidebar > div { border-top:1px solid var(--color-divider); padding:20px 12px 0; margin-top:auto; color:var(--color-muted); font-size:12px; line-height:1.8; }
+.sidebar > div button { margin-top:16px; }
+.workspace { min-width:0; padding:32px; }
+.footer { display:flex; justify-content:space-between; gap:24px; padding:20px 24px; background:white; border-top:1px solid var(--color-divider); color:var(--color-muted); font-size:11px; }
+@media(max-width:950px) { .header { flex-wrap:wrap; } .header > span { display:none; } .header > div { gap:16px; } .body { grid-template-columns:180px minmax(0,1fr); } .workspace { padding:24px; } }
+@media(max-width:650px) { .header > div { margin:0; width:100%; justify-content:space-between; } .body { grid-template-columns:1fr; } .sidebar { border-right:0; padding:16px 20px; border-bottom:1px solid var(--color-divider); } .sidebar > p,.sidebar > div { display:none; } .sidebar nav { display:flex; margin:0; } .sidebar nav a { gap:8px; } .workspace { padding:24px 20px; } .footer { flex-direction:column; gap:10px; } }

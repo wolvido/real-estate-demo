@@ -1,5 +1,5 @@
 .field { min-width: 0; }
-.label { display: block; margin-bottom: 6px; color: var(--color-secondary); font-size: 12px; font-weight: 750; text-transform: uppercase; letter-spacing: .07em; }
+.label { display: block; margin-bottom: 8px; color: var(--color-secondary); font-size: 13px; font-weight: 600; }
 .control { width: 100%; height: var(--control-height); padding: 9px 13px; color: var(--color-text); background: white; border: 1px solid var(--color-border); border-radius: var(--radius-control); font-size: 14px; line-height: 1.5; }
 .control::placeholder { color: #7b8ba0; }
 .control:focus { border-color: var(--color-primary); }

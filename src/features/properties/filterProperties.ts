@@ -21,3 +21,13 @@ export function formatPrice(property: Property): string {
   const price = new Intl.NumberFormat('en-PH', { style: 'currency', currency: property.currency, maximumFractionDigits: 0 }).format(property.price);
   return property.offering === 'rent' ? `${price} / month` : price;
 }
+
+export function sortProperties(properties: Property[], mode: 'featured' | 'low' | 'high'): Property[] {
+  return [...properties].sort((a, b) => {
+    if (mode === 'featured') return Number(b.featured) - Number(a.featured);
+    if (a.offering !== b.offering) return a.offering === 'sale' ? -1 : 1;
+    if (a.price === null) return b.price === null ? 0 : 1;
+    if (b.price === null) return -1;
+    return mode === 'low' ? a.price - b.price : b.price - a.price;
+  });
+}

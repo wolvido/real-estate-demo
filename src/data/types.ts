@@ -1,6 +1,6 @@
 export type Offering = 'sale' | 'rent';
 export type PropertyType = 'house' | 'apartment' | 'land' | 'commercial';
-export type Publication = 'draft' | 'published' | 'archived';
+export type Publication = 'draft' | 'published' | 'unpublished' | 'archived';
 
 export interface Property {
   id: string;
@@ -20,9 +20,14 @@ export interface Property {
   image: string;
   description: string;
   publication: Publication;
-  availability: 'available' | 'sold' | 'rented';
+  availability: 'available' | 'sold' | 'rented' | 'unavailable';
   featured: boolean;
   updatedAt: string;
+  photos?: string[];
+  features?: string[];
+  privateNotes?: string;
+  exactAddress?: string;
+  addressPublic?: boolean;
 }
 
 export interface PropertyFilters {
@@ -40,4 +45,7 @@ export interface Inquiry extends InquiryInput {
   propertyId: string | null;
   createdAt: string;
   status: 'new' | 'handled';
+  topic?: string;
+  note?: string;
+  notification?: 'not-sent' | 'simulated-failed' | 'simulated-sent';
 }

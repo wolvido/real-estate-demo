@@ -13,5 +13,41 @@
     "Path": "/assets/herringbone-flat.jpg",
     "Source": "https://lh3.googleusercontent.com/aida-public/AB6AXuCr3gGOxUq0ICrCAokoBlYTOALWYyehVsXB92NVnejZHdPZLY_Ep8vKn5d8XYoDQqQH4cxLZWPQs8UVzOULttJtuatAIgw4yIl_xF6pPkFB4OcHZIM1J3ux1aKBHgzrABBMrhjokA8M_1SCr4PxFtiiDJOT8zKQ9TbE6atgP_m2RY3EVbNJjtzAzluk42y_8pITkofkcxVm-QziSC7ejIks064KbtIY9EW7eX5zv0DyWtf0QTI2eUAjo94wctOANIWwgQhh9bhmkIlX",
     "Bytes": 44270
+  },
+  {
+    "Path": "/assets/c1-team.jpg",
+    "Source": "https://lh3.googleusercontent.com/aida/AEtjO1UQwJLne7RfD324-oINYqWUgkp9yvqb1gvCDHYQpg8iNQfIYNH-zSNhHjcksq-GmUhotgiGMAIoeRC4irJyXK1_-1DDQRT_9ZFlq0cPxwU4l37xNkgUpiWbsAFYvFXl__pL7NSVIfGtpRCTrL2Rbp19AS76-8VYqTg73k1O2PfOBujBj9idbszPRrovFetWHTHXujxp9MECCY34A44bUnioYzAQeTbFCD-Ho8aHD_mH9zqk4369LX7lUg",
+    "Bytes": 100844,
+    "SHA256": "17e772c1532bcab8aaa5f02a3c2989b3e67a2c93d4638150b6232410a7d74a11",
+    "StitchProjectId": "11829459736944564846",
+    "StitchScreenId": "15186841812853264350",
+    "Usage": "Illustrative sample from current C1 design"
+  },
+  {
+    "Path": "/assets/c1-house.jpg",
+    "Source": "https://lh3.googleusercontent.com/aida/AEtjO1VAZ9eeeNq856XAY_MtYys8AWzMYRcnD4ZE7D6Q_2WaOedUKmiVzw28E02Sb1vWVCGR5cCHjC0WEzvjNHIoT26VJ4-a8r-1aKpKAXHHXF9RRF4aaqk1JPT56eRxpEZs3CYB0h289HvqBtWGlYE6lIixi9tVeaM1GffeoPVg3aU17Uxjd6QZmIe0C0p9QwHA9wFVZ6t04k-ZDirsm5bOjlTwpdTSxsooAWxTFLlQ3fXXVVbxMttliwEiSh8",
+    "Bytes": 80791,
+    "SHA256": "cd1fc4b3d0df16ddfa615cee381efd894d66f879cebfee1743e3b3d6c0f9457c",
+    "StitchProjectId": "11829459736944564846",
+    "StitchScreenId": "15186841812853264350",
+    "Usage": "Illustrative sample from current C1 design"
+  },
+  {
+    "Path": "/assets/c1-condo.jpg",
+    "Source": "https://lh3.googleusercontent.com/aida/AEtjO1WRUwmkmYyksLKGIe0UXv0YTdjqfX3HJ658ksSgfYpPGDDSUF30E6pAr5BTuAEtMj2NELQFcBQjIsqy_LgjkHt3A_Y2uykCdHhZusLd7XWWsKY5B43YEXPAKPu9aG1ABtUJl88xrpSS9w_qzgGCflAYdlO_L-RnRJmrwhn-EZSap4egjl07kp5KxAU808Aoh4BS23hyM9FvEcbmciy2JXu_Q0zQH63GanRcu467NdEjqXLngbwmQFS51S0",
+    "Bytes": 48982,
+    "SHA256": "701313543c7e326031a13ff7a923e0a8bcfcdc5541e243bf7142e96195c455a9",
+    "StitchProjectId": "11829459736944564846",
+    "StitchScreenId": "15186841812853264350",
+    "Usage": "Illustrative sample from current C1 design"
+  },
+  {
+    "Path": "/assets/c1-bungalow.jpg",
+    "Source": "https://lh3.googleusercontent.com/aida/AEtjO1UhrScTH_USSAXDnTEOVe5I6xHjz69mzphsfy4IGeceGP0YNyMYQ9vI2fsIvQX55j3rGuBzmkgY7Rz1PZYHaT92J2OOlQAbjKwr2IXNOs82P3JdaldX8ST4yEe7VG6CUqwJ0HsINpGa-kes-qksjlOTScXoJ1F4Brffdk1E8Cb92qA11xHlM4YHXomF13Q3epGcjChkeMkMYw-BIyzA6kpQn6bcmn-0eOqataky5658Hktxa_P-Rb1LmAU",
+    "Bytes": 77371,
+    "SHA256": "ac981ce313174d98be56fce3c946f7129c72f9a84f61df30969311940cfbac39",
+    "StitchProjectId": "11829459736944564846",
+    "StitchScreenId": "5421441048572470662",
+    "Usage": "Illustrative gallery and related listing from current C1 reference"
   }
 ]

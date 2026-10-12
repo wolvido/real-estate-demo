@@ -1,0 +1,14 @@
+import { Link } from 'react-router';
+import { company } from '../data/fixtures/company';
+import { ContactCallout } from '../components/ui/ContactCallout';
+import { LinkButton } from '../components/ui/LinkButton';
+import styles from './CompanyPages.module.css';
+export function AboutPage() {
+  return <main id="main" className={'page-container ' + styles.main}>
+    <section className={styles.hero}><div><p className="eyebrow">About the company</p><h1>A local team for your next move.</h1><p>We help buyers, renters, and property owners take their next step in Davao and across Mindanao. Start with a conversation about what matters to you.</p><div className="action-row"><Link to="/#properties" className="text-link">Browse properties →</Link><Link to="/services" className="text-link">Our services →</Link></div></div><figure><img src={company.photo} alt="Illustrative local team conversation" width="640" height="400" /><figcaption><strong>A local conversation</strong><span>Davao & Mindanao</span></figcaption></figure></section>
+    <section className={styles.splitSection}><div><p className="eyebrow">Our perspective</p><h2>A local conversation. A clearer next step.</h2></div><div><p>Your property search starts with your plans: where you want to live, how much space you need, and a budget that feels right. Our team helps you explore local options and the questions to ask along the way.</p><p>Whether you are buying, renting, or asking about listing a property, you can speak directly with our team. Explore the available information, compare your options, and decide on a comfortable next step.</p></div></section>
+    <section className={styles.section}><p className="eyebrow">Process</p><h2>How we work</h2><div className={styles.steps}>{company.steps.map((step,index) => <div key={step.title}><p className="eyebrow">Step 0{index + 1}</p><h3>{step.title}</h3><p>{step.text}</p></div>)}</div></section>
+    <section className={styles.splitSection}><div><p className="eyebrow">Standards</p><h2>What you can expect</h2></div><div className={styles.standards}><div><h3>Clear property information</h3><p>Locations, prices, floor areas in sqm, and useful facts presented clearly.</p></div><div><h3>Visible availability</h3><p>Straightforward viewing status and listing availability published clearly for each property.</p></div><div><h3>Arrange a conversation</h3><p>Ask your questions directly and move at your own pace.</p></div></div></section>
+    <section className={styles.coverage}><div><p className="eyebrow">Coverage</p><h2>Davao & Mindanao</h2><p>Davao City, Samal, Panabo, Tagum, Digos, and neighboring areas. Ask us about the location you have in mind.</p></div><LinkButton to="/contact" variant="secondary">Inquire about service areas</LinkButton></section><ContactCallout />
+  </main>;
+}
